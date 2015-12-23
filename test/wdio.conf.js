@@ -55,7 +55,7 @@ exports.config = {
 	baseUrl: 'http://www.sonos.com',
 	//
 	// Default timeout for all waitForXXX commands.
-	waitforTimeout: 15000,
+	waitforTimeout: 10000,
 	//
 	// Initialize the browser instance with a WebdriverIO plugin. The object should have the
 	// plugin name as key and the desired plugin options as property. Make sure you have
@@ -96,7 +96,9 @@ exports.config = {
 	// See the full list at http://mochajs.org/
 	mochaOpts: {
 		ui: 'bdd',
-		compilers: ['js:babel-core/register', 'js:babel-polyfill']
+		compilers: ['js:babel-core/register', 'js:babel-polyfill'],
+		timeout: 15000,
+		slow: 1000
 	},
 
 	//
