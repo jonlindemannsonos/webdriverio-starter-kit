@@ -14,11 +14,11 @@ After it finishes installing, run the following command in your terminal for ins
 
 Since the Firefox web driver is probably already installed, this will probably install Chrome for Mac or IE for Windows. If you want to install a specific architecture, you can refer to the [documentation for `selenium-standalone`](https://www.npmjs.com/package/selenium-standalone).
 
-### Install wdio
+### Install Webdriver.io globally
 
-From the terminal window, install `wdio`, which is our WebdriverIO testrunner.
+From the terminal window, install `webdriverio`, which is our WebdriverIO testrunner.
 
-`npm install -g wdio` 
+`npm install -g webdriverio` 
 
 ### Clone this repository
 
