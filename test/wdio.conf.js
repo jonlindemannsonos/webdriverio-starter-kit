@@ -96,8 +96,8 @@ exports.config = {
 	// See the full list at http://mochajs.org/
 	mochaOpts: {
 		ui: 'bdd',
-		compilers: ['js:babel-core/register', 'js:babel-polyfill'],
-		timeout: 15000,
+		compilers: ['js:babel-register', 'js:babel-polyfill'],
+		timeout: 30000,
 		slow: 1000
 	},
 
